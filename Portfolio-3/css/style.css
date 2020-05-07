@@ -1,0 +1,463 @@
+/* Global Styles */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.down {
+    display: block;
+    font-size: 16px;
+    margin: 4em 0 20px 0;
+    opacity: 0.75;
+}
+
+.btn {
+    padding: 8px;
+    margin: 20px 0;
+    border-radius: 5%;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+/* Header Styles -------------------------------------------------------------- */
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background: no-repeat url(../images/background-3.jpg);
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 5px 15px;
+}
+
+header a {
+    color: white;
+    font-size: 18px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.nav li {
+    margin: 0 20px;
+    display: inline;
+}
+
+.nav li a {
+    font-size: 20px;
+}
+
+.nav a:hover {
+    border-bottom: 4px solid rgb(149, 209, 229);
+}
+
+h1 {
+    margin: 0;
+    padding: 30vh 0 10px 0;
+    width: 100%;
+    color: white;
+    font-size: 60px;
+    text-shadow: white 0 0 20px;
+}
+
+header p {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+}
+
+header .down {
+    text-decoration: none;
+    visibility: hidden;
+    transform: translateY(225px);
+}
+
+/* About Section Styles ------------------------------------------------------- */
+
+.about {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(steelblue, black);
+    color: white;
+    border-top: 2px solid black;
+}
+
+.about h2 {
+    margin: 10px 0 20px 0;
+    padding: 0;
+    font-size: 32px;
+    color: white;
+}
+
+.about img {
+    width: 18%;
+    border-radius: 50%;
+    box-shadow: black 2px 2px 20px;
+}
+
+.about .objective {
+    margin: 10px auto 20px auto;
+}
+
+.about .row {
+    width: 90%;
+    height: 50%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.row .col {
+    width: 45%;
+    height: 100%;
+    margin: 0 5px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 3%;
+}
+
+.about h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    margin: 10px auto;
+    width: 80%;
+}
+
+.col p.coursework {
+    display: none;
+}
+
+.col .btn {
+    margin: 40px 0 0 0;
+}
+
+.about .btn:hover {
+    background-color: black;
+    color: white;
+    box-shadow: gray 1px 1px 10px;
+}
+
+.about .more-content {
+    width: 90%;
+    height: 33%;
+    margin: 10px auto;
+    display: none;
+}
+
+.more-content .row {
+    width: 100%;
+    height: 100%;
+}
+
+.skill-col {
+    margin: auto;
+    width: 90%;
+    display: flex;
+}
+
+.skill-col .name-col {
+    width: 25%;
+    display: inline-block;
+}
+
+.skill-col .name-col p {
+    margin-bottom: 14px;
+}
+
+.skill-col .container {
+    width: 100%;
+    display: inline-block;
+    background-color: #ddd;
+    margin: 0 0 5px 0;
+}
+
+.container .skills {
+    text-align: center;
+    padding: 5px 0;
+    color: white;
+}
+
+.java {
+    width: 95%;
+    background-color: blue;
+}
+
+.cpp {
+    width: 30%;
+    background-color: red;
+}
+
+.python {
+    width: 30%;
+    background-color: orange;
+}
+
+.html {
+    width: 40%;
+    background-color: yellow;
+}
+
+.css {
+    width: 40%;
+    background-color: green;
+}
+
+.javascript {
+    width: 20%;
+    background-color: blueviolet;
+}
+
+.sql {
+    width: 55%;
+    background-color: blue;
+}
+
+.tech-col {
+    margin: 0;
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+.tech-col .name-col {
+    width: 30%;
+    display: inline-block;
+    margin: 0;
+}
+
+.tech-col .name-col p {
+    margin: 0 0 16px 0;
+}
+
+.tech-col .container {
+    width: 100%;
+    display: inline-block;
+    background-color: #ddd;
+    margin: 0 0 5px 0;
+}
+
+.intellij {
+    width: 65%;
+    background-color: blue;
+}
+
+.vscode {
+    width: 40%;
+    background-color: green;
+}
+
+.github {
+    width: 55%;
+    background-color: blueviolet;
+}
+
+.mysql {
+    width: 55%;
+    background-color: red;
+}
+
+.bootstrap {
+    width: 40%;
+    background-color: orange;
+}
+
+.android {
+    width: 30%;
+    background-color: yellow;
+}
+
+.msoffice {
+    width: 100%;
+    background-color: green;
+}
+
+/* Portfolio Section Styles --------------------------------------------------- */
+
+.portfolio {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(black, steelblue);
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.portfolio h2 {
+    margin: 40px 0 30px 0;
+    font-size: 32px;
+    color: white;
+}
+
+.portfolio-wrapper {
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.project {
+    position: relative;
+    width: 20%;
+    margin: 10px 15px;
+}
+
+.project img {
+    width: 100%;
+    height: 30%;
+    margin: 20px 0 0 0;
+}
+
+.project .text {
+    width: 100%;
+    height: 60%;
+}
+
+.project a img {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.project a img:hover {
+    box-shadow: gray 0 0 10px;
+}
+
+.portfolio .btn {
+    background-color: gray;
+    color: black;
+    border-radius: 20px;
+    box-shadow: black 0 0 10px;
+}
+
+.portfolio .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.portfolio .more-content {
+    width: 90%;
+    height: 40%;
+    margin: 10px auto 0 auto;
+    display: none;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+
+/* Footer Styles -------------------------------------------------------------- */
+
+footer {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    padding: 10px;
+    background-image: url(../images/background-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.footer-wrapper {
+    width: 60vw;
+    margin: 40px auto;
+    background-color: rgba(70, 131, 180, 0.85);
+    color: white;
+    border-radius: 40px;
+    box-shadow: black 2px 2px 20px;
+}
+
+.footer-wrapper h2 {
+    margin: 30px 0;
+    padding: 20px 0 0 0;
+    font-size: 32px;
+}
+
+form {
+    margin: 40px 25%;
+    width: 50%;
+    padding: 0 0 20px 0;
+}
+
+form .form-group {
+    display: block;
+    margin: 15px 0;
+}
+
+#messageBody {
+    width: 300px;
+    height: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+form button {
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer li img {
+    width: 60px;
+    border-radius: 5%;
+}
+
+footer li img:hover {
+    box-shadow: white 0 0 10px;
+}
+
+footer p {
+    transform: translateY(75px);
+}

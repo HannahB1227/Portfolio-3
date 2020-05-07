@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hannah's Portfolio</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" async></script>
+    </head>
+
+    <body>
+        <header id="header">
+            <nav>
+                <ul class="nav">
+                    <li><a href="#aboutSection">About</a></li>
+                    <li><a href="#portfolioSection">Portfolio</a></li>
+                    <li><a href="#footer">Contacts</a></li>
+                </ul>
+            </nav>
+            <h1></h1>
+            <p></p>
+            <p class="down"><a href="#aboutSection">Learn More</a><br>V</p>
+        </header>
+
+        <div class="about" id="aboutSection">
+            <!-- <a href="#header" class="up">Previous Section</a> -->
+            <h2>About Me</h2>
+            <img src="images/hannah.jpg" alt="Hannah Burke">
+            <p class="objective">
+                I am a determined, highly dedicated, team player currently seeking an entry-level 
+                software developer position where I can utilize and expand my skills in 
+                designing, implementing, and maintaining software applications.
+            </p>
+            <div class="row">
+                <div class="col">
+                    <h3>Education</h3>
+                    <p>
+                        University of Georgia - Athens, GA
+                        <br><em>Bachelor's of Science in Computer Science</em>
+                        <br>August 2016 - December 2019
+                        <br>GPA: 3.49
+                    </p>
+                    <p>
+                        UGA at Oxford - Oxford, England
+                        <br><em>Study Abroad Program</em>
+                        <br>June 30, 2019 - August 9, 2019
+                    </p>
+                    <p>
+                        Georgia Gwinnett College - Lawrenceville, GA
+                        <br><em>Dual Enrollment, Core Curriculum</em>
+                        <br>August 2014 - May 2016
+                        <br>GPA: 3.75
+                    </p><br>
+                    <p class="coursework">
+                        <em>Coursework</em>: Software Development, Systems Programming, 
+                        Computer Architecture & Organization, Data Structures, 
+                        Human-Computer Interaction, Software Engineering, Database Management, 
+                        Computer Networks, Computer Graphics, Mobile Software Development
+                    </p>
+                </div>
+                <div class="col">
+                    <h3>Skills</h3>
+                    <p><em>Programming Languages</em>:<br>Java, C++, Python, HTML, CSS, JavaScript, and SQL</p><br>
+                    <p><em>Technical Skills</em>:<br>IntelliJ IDE, Visual Studio Code, GitHub, MySQL, Bootstrap, Android Studio, and Microsoft Office Suite</p>
+                    <br><br><a href="#aboutSection" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="more-content">
+                <div class="row">
+                    <div class="col">
+                        <br><p><em>Programming Languages</em></p><br>
+                        <div class="skill-col">
+                            <div class="name-col">
+                                <p>Java</p>
+                                <p>C++</p>
+                                <p>Python</p>
+                                <p>HTML</p>
+                                <p>CSS</p>
+                                <p>JavaScript</p>
+                                <p>SQL</p>
+                            </div>
+                            <div class="rating-col">
+                                <div class="container"><div class="skills java">4 years</div></div>
+                                <div class="container"><div class="skills cpp">1 year</div></div>
+                                <div class="container"><div class="skills python">1 year</div></div>
+                                <div class="container"><div class="skills html" style="color: gray;">1.5 years</div></div>
+                                <div class="container"><div class="skills css">1.5 years</div></div>
+                                <div class="container"><div class="skills javascript">6 months</div></div>
+                                <div class="container"><div class="skills sql">2 years</div></div>
+                            </div>
+                        </div>
+                        <p>The first language I learned was Java quickly followed by C++ 6 months later. These two languages and SQL I learned 
+                            in my courses at UGA, but I took it upon myself to learn Python, HTML, CSS, and JavaScript. I feel that I am most 
+                            familiar and skilled with Java, HTML, and CSS. </p>
+                    </div>
+                    <div class="col">
+                        <br><p><em>Technical Skills</em></p><br>
+                        <div class="tech-col">
+                            <div class="name-col">
+                                <p>IntelliJ IDE</p>
+                                <p>VS Code</p>
+                                <p>GitHub</p>
+                                <p>MySQL</p>
+                                <p>Bootstrap</p>
+                                <p>AndroidStudio</p>
+                                <p>MS Office</p>
+                            </div>
+                            <div class="rating-col">
+                                <div class="container"><div class="skills intellij">2.5 years</div></div>
+                                <div class="container"><div class="skills vscode">1.5 years</div></div>
+                                <div class="container"><div class="skills github">2 years</div></div>
+                                <div class="container"><div class="skills mysql">2 years</div></div>
+                                <div class="container"><div class="skills bootstrap">1.5 years</div></div>
+                                <div class="container"><div class="skills android" style="color: gray;">1 year</div></div>
+                                <div class="container"><div class="skills msoffice">> 10 years</div></div>
+                            </div>
+                        </div>
+                        <p>My main text editor for Java and C++ development is the IntelliJ IDE while I favor Visual Studio Code for web development. 
+                            I started using MySQL and AndroidStudio due to my courses at UGA and have continued to use them since I graduated. 
+                            I also have a passing familiarity with the Eclipse IDE as it used to be my main code editor before I switched to IntelliJ.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio" id="portfolioSection">
+            <h2>Portfolio</h2>
+            <div class="portfolio-wrapper">
+                <div class="row">
+                    <div class="project">
+                        <img src="images/textEditor.jpg" alt="Text Editor">
+                        <div class="text">
+                            <h3>Text Editor</h3>
+                            <p>This is a basic text editor coded in Java which lets the user 
+                                open, edit, save, or create a new text file. Java Swing is used 
+                                to create the Graphical User Interface to interact with their text 
+                                files.
+                            </p>
+                            <a href="https://github.com/HannahB1227/TextEditor"><img src="images/github.png" alt="GitHub"></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/studyAbroad.png" alt="Study Abroad">
+                        <div class="text">
+                            <h3>Study Abroad</h3>
+                            <p>This is a website I developed using HTML and CSS to document my study 
+                                abroad experience in Oxford including the photographs I took while there. 
+                            </p>
+                            <a href="https://github.com/HannahB1227/Study-Abroad"><img src="images/github.png" alt="GitHub"></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/pets-page.png" alt="Pets Page">
+                        <div class="text">
+                            <h3>Pets Page</h3>
+                            <p>This was a project that I did in order to develop my skills with HTML and CSS. 
+                                It is a website which hosts a galley of images that depict my pets.
+                            </p>
+                            <a href="https://github.com/HannahB1227/Pets-Page"><img src="images/github.png" alt="GitHub"></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/graphics.jpg" alt="2D Graphics">
+                        <div class="text">
+                            <h3>Computer Graphics Assignment</h3>
+                            <p>This was an assignment that I completed for the Computer Graphics course that 
+                                involves the drawing of 2D figures using the Bresenham's line drawing algorithm 
+                                and then allows the user to translate, scale, or rotate the image. 
+                            </p>
+                            <a href="https://github.com/HannahB1227/2D-Graphics"><img src="images/github.png" alt="GitHub"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-content">
+                <div class="row">
+                    <div class="project">
+                        <img src="images/calculator.png" alt="Calculator">
+                        <div class="text">
+                            <h3>Calculator</h3>
+                            <p>This is a weekend project that I developed using Android Studio. It has 
+                                the functionalities of a simple calculator and is able to add, subtract, 
+                                multiply, and divide numbers. There are still some errors with the program 
+                                and I would like to develop the application further. 
+                            </p>
+                            <a href="https://github.com/HannahB1227/Calculator"><img src="images/github.png" alt="GitHub"></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/utilities.png" alt="Utilities">
+                        <div class="text">
+                            <h3>Utilities Website</h3>
+                            <p>This is a website which contains multiple functionalities such as providing 
+                                the current time and date along with an analog clock, converting the current time 
+                                to a specified timezone, a todo list, and the ability to set alarms. The website uses HTML, CSS, and JavaScript. 
+                                Some of the functionalities under construction will likely use MySQL and Java. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/bookstore.png" alt="E-commerce Bookstore">
+                        <div class="text">
+                            <h3>E-commerce Bookstore</h3>
+                            <p>I decided to develop this website as a reproduction of a group project that was 
+                                assigned in my Software Engineering course and it is an online bookstore where users 
+                                can buy and sell books. It utilizes HTML, CSS, Java, and a MySQL database. 
+                                This project is currently under construction and certain functionalities have yet to be completed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#portfolioSection" class="btn">Show More</a>
+        </div>
+
+        <footer id="footer">
+            <div class="footer-wrapper">
+                <h2>Contact Me</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="#name">Name: </label>
+                        <input type="text" name="name" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="#email">Email: </label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="messageBody">Type your message here</textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <ul>
+                <li><a href="mailto:HannahB1227@comcast.net"><img src="images/email.png" alt="Email"></a></li>
+                <li><a href="https://www.linkedin.com/in/hburke13/"><img src="images/linkedin.png" alt="LinkedIn"></a></li>
+                <li><a href="https://github.com/HannahB1227"><img src="images/github.png" alt="GitHub"></a></li>
+            </ul>
+            <p>&copy;2019 Hannah Burke. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>
